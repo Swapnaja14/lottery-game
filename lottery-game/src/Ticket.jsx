@@ -4,7 +4,7 @@ import './Ticket.css';
 export default function Ticket({ ticket }) {
     return (
         <div className="Ticket">
-            <p>Ticket</p>
+            <p className="ticket-title">Ticket</p>
             <div>
                 {ticket.map((num, idx) => (
                     <TicketNum num={num} key={idx} />

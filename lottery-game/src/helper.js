@@ -11,7 +11,7 @@ function genTicket (n) {
 
 
 function sum(arr) {
-    arr.reduce((sum, curr) => sum + curr, 0);
+    return arr.reduce((sum, curr) => sum + curr, 0);
 }
 
 export {genTicket, sum};
